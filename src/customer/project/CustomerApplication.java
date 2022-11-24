@@ -29,9 +29,8 @@ public class CustomerApplication {
 		customerList.add(customerYul);
 		customerList.add(customerKim);
 		showAllCustomer();
-		showPriceBonus(findCustomer(10050), 10000);
 		
-		Customer matchCustomer = findCustomer(11111);
+		Customer matchCustomer = findCustomer(10050);
 		if(matchCustomer == null) {
 			System.out.println("존재하지 않는 회원입니다.");
 		} else {
